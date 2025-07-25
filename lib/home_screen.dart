@@ -5,8 +5,8 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-
+    return Scaffold(
+      appBar: AppBar(title: Text("Login Screen")),
     );
   }
 }
