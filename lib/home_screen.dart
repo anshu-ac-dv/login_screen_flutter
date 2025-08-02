@@ -6,7 +6,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Login Screen")),
+      appBar: AppBar(title: Text("Login Screen",style: TextStyle(color: Colors.blue.shade500,fontSize: 20),)),
+
     );
   }
 }
